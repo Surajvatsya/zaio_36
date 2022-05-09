@@ -1,0 +1,18 @@
+.results{
+	width: fit-content;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 768px){
+	.results{
+		background-color: white;
+		position: relative;
+		margin-left: auto;
+		margin-right: 0;
+	}
+	.results {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+	}
+	
+}

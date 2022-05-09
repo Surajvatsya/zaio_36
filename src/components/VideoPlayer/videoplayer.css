@@ -1,0 +1,27 @@
+.testimonial_main .inner {
+    border-top: 7px solid #6e31f9;
+    border-radius: 5px;
+    padding: 40px 50px;
+    box-shadow: 0 0px 12px #0000005e;
+}
+.testimonial_main .inner {
+    padding-bottom: calc(40px - 30px);
+}
+
+.videoPlayer {
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .testimonial_main .profile {
+        text-align: center;
+    }
+    .testimonial_main .comments div {
+        text-align: center;
+        margin-top: 20px;
+    }    
+    .free_consult {
+        padding: 60px 0;
+        padding-bottom: calc(60px - 30px);
+    }
+}

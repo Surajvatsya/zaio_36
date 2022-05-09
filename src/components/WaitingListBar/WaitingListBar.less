@@ -1,0 +1,18 @@
+@import './colors.less';
+
+.waitingListBar{
+    background: @WaitingBarPrimaryColor;
+    border: none;
+    color: @TextColor;
+    padding: 10px 0px;
+    width: 100%;
+
+    &:hover {
+        background: darken(@WaitingBarPrimaryColor, 5%);
+    }
+
+    span {
+        float: right;
+        font-weight: bolder;
+    }
+}

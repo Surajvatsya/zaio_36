@@ -1,0 +1,39 @@
+.certificate_main h2 {
+    color: #fff;
+}
+.certificate_main {
+    color: #fff;
+    height: 555px;
+}
+.certificate_main .col-md-6 {
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.certificate_main:after {
+    position: absolute;
+    content: "";
+    width: 85.2%;
+    height: 100%;
+    /* background-image: url(./assets/Certification.png); */
+    top: 0;
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+@media only screen and (max-width: 767px) {
+    .bg-dark-sm {
+        background-color: #103558;
+    }
+    .certificate_main {
+        padding-top: 50px;
+        height: auto;
+    }
+    .certificate_main .container .row {
+        flex-direction: column-reverse;
+    }
+}

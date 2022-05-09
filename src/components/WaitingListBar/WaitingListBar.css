@@ -1,0 +1,16 @@
+.waitingListBar {
+  /* background: #7933ff; */
+  background: #199763;
+  border: none;
+  color: #ffffff;
+  padding: 10px 0px;
+  width: 100%;
+}
+.waitingListBar:hover {
+  /* background: #6819ff; */
+  background: #178557;
+}
+.waitingListBar span {
+  float: right;
+  font-weight: bolder;
+}

@@ -1,0 +1,39 @@
+.discount {
+  text-align: start;
+  font-size: 16px;
+  /* or 100% */
+
+  letter-spacing: 0.625px;
+  width: fit-content;
+  color: #ff0000;
+}
+.op {
+  font-size: 20px;
+  text-align: start;
+  letter-spacing: 0.625px;
+  text-decoration-line: line-through;
+  color: #989898;
+  margin-bottom: 0px;
+}
+
+.price {
+  width: fit-content;
+  text-align: start;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  letter-spacing: 0.625px;
+  margin-right: 5px;
+  color: #6e31f9;
+  margin-bottom: -3px;
+}
+.daysleft {
+  text-align: start;
+  font-size: 13px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 0.625px;
+
+  color: #ff0000;
+  margin-bottom: 10px;
+}

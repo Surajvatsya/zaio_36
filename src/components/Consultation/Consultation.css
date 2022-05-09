@@ -1,0 +1,37 @@
+.free_consult .col-md-5 {
+    z-index: 9;
+}
+.free_consult {
+    background: #EE78A8;
+    padding: 120px 0;
+    float: left;
+    width: 100%;
+}
+.free_consult h2 {
+    font-size: 45px;
+    color: #fff;
+}
+.free_consult .btn_theme {
+    border-color: #6e31f9;
+}
+.w-60{width: 60%;}
+
+
+@media only screen and (max-width:991px) {
+    .free_consult h2 {
+        font-size: 30px;
+        text-align: left;
+    }
+    .free_consult .inner p {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .free_consult .inner p, .free_consult h2 {
+        text-align: center;
+    }
+    .large_theme_btn {
+        padding: 10px 50px;
+    }
+}
+

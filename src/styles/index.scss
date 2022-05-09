@@ -1,0 +1,27 @@
+// change the theme
+$theme-colors: (
+  "primary": #16325B,
+  "secondary": #7933FE,
+  "orange": hsl(31, 100%, 56%),
+  "green": #05ED62,
+  "blue": #04BDFC,
+  "pink": #FF6EA9,  
+);
+
+
+$sizes: 
+  (
+    25: 25%,
+    33: 33%,
+    50: 50%,
+    66: 66%,
+    75: 75%,
+    100: 100%,
+    auto: auto
+  );
+  
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+@import './footer.scss';
+@import './modal.scss';
+@import './auth.scss';

@@ -1,0 +1,172 @@
+.wb {
+  font-weight: bold;
+  font-size: 48px;
+
+  letter-spacing: 0.625px;
+
+  color: #0d1e3a;
+}
+.username {
+  color: #6e31f9;
+}
+.confirmModal{
+  font-weight: 600;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 20%;
+  align-items: center;
+  width: 100%;
+}
+.modal_button_row{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 3%;
+}
+.modal_pay_button{
+ border: none;
+ border-radius: 4px;
+ background-color: #93dc93;
+ padding: 10px;
+}
+.modal_cancle_button{
+  border: none;
+  border-radius: 4px;
+  background-color: #dc9393;
+  padding: 10px;
+ }
+.options {
+  margin: 10px 0 0 0;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 80px;
+}
+.item {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 24px;
+  width: fit-content;
+  letter-spacing: 0.625px;
+
+  color: #c4c4c4;
+}
+.active_item {
+  border-bottom: 2px solid #0d1e3a;
+  color: #0d1e3a;
+}
+.dashboard_main {
+  background: #f5f3f1;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  padding: 44px;
+}
+.heading {
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 0.625px;
+
+  color: #0d1e3a;
+}
+
+.learningpath {
+  padding: 27px;
+  background: #ffffff;
+  border: 4px solid #07bdfa;
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: 337px;
+  font-size: 24px;
+  line-height: 37px;
+  /* or 156% */
+
+  text-align: center;
+  letter-spacing: 0.625px;
+
+  color: #07bdfa;
+}
+.width_100{
+  width: 100%;
+}
+.text_align_center{
+  font-size: 44px;
+  text-align: center;
+}
+.dashboard_settings {
+  margin-top: 30px;
+  background-color: transparent;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  padding: 50px;
+}
+.back_Btn {
+  width: 7%;
+    height: 3%;
+    border: none;
+    border-radius: 4px;
+    background-color: #a562d8;
+    margin-bottom: 10px;
+    color: white;
+}
+.heading2 {
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 0.625px;
+
+  color: #0d1e3a;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.heading3 {
+  font-size: 16px;
+  color: #0d1e3a;
+  margin: 8px 0;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+.adminItems {
+  color: #16325b;
+  background-color: #fff;
+  font-weight: bold;
+  border: 1px solid #bbb;
+}
+
+.adminItems:hover {
+  background-color: #16325b;
+  color: #fff;
+}
+
+.paceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.formGroup {
+  margin-bottom: 0 !important;
+}
+.dottedLineShort {
+  margin-top: 0;
+  width: 50%;
+  height: 30px;
+  border-right: 2.5px #ced4da dashed;
+}
+.dottedLineMedium {
+  margin-top: 0;
+  width: 50%;
+  height: 60px;
+  border-right: 2.5px #ced4da dashed;
+}
+.dottedLineLong {
+  margin-top: 0;
+  width: 50%;
+  height: 90px;
+  border-right: 2.5px #ced4da dashed;
+}

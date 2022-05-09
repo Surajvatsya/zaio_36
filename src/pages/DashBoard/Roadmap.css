@@ -1,0 +1,105 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.roadmap-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.roadmap-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  min-width: 210px;
+  /* height: 200px; */
+}
+.number {
+  padding: 40px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+.number-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  /* position: relative; */
+}
+.line {
+  align-items: flex-end;
+  height: 100%;
+  width: 3px;
+  background-color: var(--primary);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.roadmap-box {
+  width: 500px;
+  border-radius: 20px;
+  margin-left: 50px;
+  padding: 20px;
+  position: relative;
+}
+/* .duration {
+  position: absolute;
+  top: -10px;
+  right: -40px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+} */
+.duration {
+  color: white;
+}
+
+.coupon-container {
+  display: flex;
+  margin-top: 20px;
+}
+.coupon-code {
+  width: 60%;
+}
+.copy-code {
+  cursor: pointer;
+}
+.share-coupon {
+  margin-left: 10px;
+  width: 40%;
+}
+.earnings-container {
+  display: flex;
+  margin-top: 20px;
+}
+.my-earnings {
+  width: 50%;
+  text-align: center;
+}
+.owed-to-me {
+  width: 50%;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.explanation {
+  margin-top: 20px;
+}
+.explanation-list {
+  padding: 25px;
+}

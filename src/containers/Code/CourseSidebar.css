@@ -1,0 +1,182 @@
+.minimizeBtn {
+    display: inline-block;
+    margin: 0;
+    padding: 0.4em;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    cursor: pointer;
+    background: #17325b;
+    color: rgb(255, 255, 255);
+  }
+  
+  .minimizeBtn:hover {
+    background: #0f213c;
+  }
+  
+  .speedBtn {
+    display: inline-block;
+    margin: 0;
+    border-radius: 0;
+    cursor: pointer;
+    background: #17325b;
+    border-right: 0.7px #0f213c solid;
+    border-left: 0.7px #0f213c solid;
+    color: rgb(255, 255, 255);
+  }
+  
+  .supportBtn {
+    display: inline-block;
+    margin: 0;
+    padding: 0.5em;
+    border-radius: 0;
+    cursor: pointer;
+    background: #17325b;
+    color: rgb(255, 255, 255);
+  }
+  
+  .supportBtn:hover {
+    background: #0f213c;
+  }
+  
+  .toastOn {
+    display: inline-block;
+    margin: 0;
+    padding: 0.4em;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+    background: #004e21;
+    color: rgb(255, 255, 255);
+    z-index: 10000;
+  }
+  
+  .toastOff {
+    display: inline-block;
+    margin: 0;
+    padding: 0.4em;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+    background: #863859;
+    color: rgb(255, 255, 255);
+    z-index: 10000;
+  }
+  
+  .minimizeBtnPop {
+    display: inline-block;
+    margin: 0;
+    padding: 0.4em;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+    background: #17325b;
+    color: rgb(255, 255, 255);
+    animation: pulse 1s ease-in infinite;
+    z-index: 10000;
+  }
+  @keyframes pulse {
+    25% {
+      transform: scale(0.9);
+    }
+    75% {
+      transform: scale(1.1);
+    }
+  }
+  @keyframes pulse {
+    50% {
+      transform: scale(0.8);
+    }
+  }
+  @keyframes pulse {
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  
+  /* ********************* */
+  
+  .app {
+    position: relative;
+    max-width: 0px;
+    display: flex;
+    min-height: 100vh;
+    overflow-x: hidden;
+    transition: 0.2s linear;
+  }
+  
+  .app.is-active {
+    max-width: 400px;
+  }
+  
+  .menu-toggle {
+    position: fixed;
+    top: 60px;
+    left: -145px;
+    width: 190px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(188, 188, 188);
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0 20px;
+    z-index: 10;
+    transition: 0.2s linear;
+  }
+  
+  .menu-toggle:hover {
+    position: fixed;
+    top: 60px;
+    left: -1px;
+    background-color: rgb(53, 53, 53);
+  }
+  
+  .hamburger {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: #fff;
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .sidebar {
+    position: absolute;
+    left: -400px;
+    width: 100%;
+    min-height: 100vh;
+    max-width: 400px;
+    background-color: #fff;
+    transition: 0.2s linear;
+    z-index: 11;
+  }
+  
+  .sidebar.is-active {
+    left: 0;
+  }
+  
+  .course-list-container {
+    padding: 0 30px 30px 30px;
+  }
+  
+  .sidebar-header {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    z-index: 12;
+    padding: 0 20px;
+    box-shadow: 0px 1px 2px #888888;
+  }
+  
+  .sidebar-header > .hamburger {
+    color: black;
+    font-size: 20px;
+    right: 15px;
+  }
+  

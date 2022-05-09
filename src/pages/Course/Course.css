@@ -1,0 +1,303 @@
+.custom-container {
+    margin-left: 70px;
+    margin-right: calc(max(340px, 33vw));
+    padding: 22px;
+}
+
+.lp-header {
+    background-color: #F8F1EB;
+    min-height: 500px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.popupVideo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    height: 80vh;
+    height: 80vw;
+
+}
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    overflow: hidden;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+
+}
+
+.header-filter {
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    min-height: 500px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.play-button {
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: pulse 1.5s infinite;
+	transform: scale(1);
+	animation: pulse 1.5s infinite;
+}
+
+
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    content: '';
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+
+.head {
+    text-align: end;
+}
+
+.lp-title {
+    margin-left: 10px;
+    max-width: 800px;
+    color: #F8F1EB;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    position: absolute;
+    bottom: 10px;
+    text-align: left;
+    z-index: 2;
+}
+
+.lp-subtitle {
+    font-size: 17px;
+    padding-top: 25px;
+    max-width: 700px;
+    margin-left: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.lp-prereq {
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.subscribe-card {
+    max-width: 350px;
+    top: -12rem;
+    right: 5vw;
+    margin-left: calc(100vw - calc(max(340px, 33vw)));
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 20px 30px;
+    box-shadow: 0 1px 4px -1px rgba(5, 25, 45, 0.3), 0 0 1px 0 rgba(5, 25, 45, 0.3);
+    color: #05192D;
+    justify-content: center;
+    text-align: center;
+}
+
+.sticky {
+    position: sticky;
+    top: 300px;
+    z-index: 2;
+}
+
+.subscribe-button {
+    color: #fff;
+    background-color: #16325B;
+    padding: 25px;
+    border-radius: 6px;
+}
+
+.subscribe-button:hover {
+    cursor: pointer;
+    background-color: #05192D;
+}
+
+.subscribe-content {
+    margin-bottom: 8px;
+}
+
+.lp-learn {
+    background-color: #F8F1EB;
+    padding-left: 20px;
+}
+
+
+.heading {
+    font-size: 50px;
+}
+
+.list-item {
+    margin: 8px 0;
+    font-size: 19px;
+    padding: 4px 0;
+}
+
+.list-item-2 {
+    margin: 8px 0;
+    font-size: 17px;
+    padding: 4px 0;
+}
+
+.grid {
+    display: grid;
+    justify-items: left;
+}
+
+.build-item {
+    padding: 12px;
+}
+
+.build-item>img {
+    max-width: 100%;
+    height: auto;
+}
+
+.lp-teacher{
+    background-color: #F8F1EB;    
+}
+
+.lp-teacher .row{
+    align-items: flex-start;
+}
+
+.teacher>img{
+    max-width: 50%;
+    height: auto;
+}
+
+.lp-learn {
+    line-height: 35px;
+}
+
+.lp-content {
+    padding-left: 45px;
+    line-height: 35px;
+}
+
+.lp-unitline {
+    padding-left: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 30px;   
+}
+
+.teacher-image {
+    width: 40%;
+    float: left;
+}
+
+.teacher-text {
+    width: 40%;
+    display: inline-block;
+}
+
+@media screen and (max-width:880px) {
+    .play-button {
+        top: 10vh;
+        margin-top: 0;
+    }
+    .sticky{
+        position: relative;
+        top:0;
+    }
+
+    .subscribe-card {
+        position: relative;
+        display: block;
+        top:0;
+        margin: 10px auto 10px auto;
+        right: 0;;
+    }
+
+    .custom-container {
+        width: 80%;
+        margin: 0 70px;
+    }
+
+    .lp-title {
+        max-width: 700px;
+        font-size: 56px;
+    }
+
+    .lp-subtitle {
+        max-width: 700px;
+    }
+
+    .teacher-text {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .custom-container {
+        margin-left: 20px;
+        width: 90%;
+        padding: 0;
+    }
+
+    .lp-title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .lp-content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+
+    .lp-learn {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+    
+    .teacher-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .teacher-text {
+        margin-top: 20px;
+        width: 90%;
+    }
+}

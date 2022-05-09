@@ -1,0 +1,104 @@
+.quote_main{
+    float: left;
+    width: 100%;
+    background-color: #fff;
+
+}
+.bg_quote {
+    background: #0D1E3A;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+.bg_quote .inner h2 {
+
+    color: #EED9CA;
+    font-size: 48px;
+    line-height: 60px;
+
+    padding: 50px;
+}
+.prof {
+    background: #0D1E3A;
+
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+.prof img {
+    
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.prof span {
+    color: #EED9CA;
+
+}
+.quote_main .inner h2:after, .quote_main .inner h2:before {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 50px;
+    position: absolute;
+    z-index: 9;
+    width: 50px;
+    height: 36px;
+}
+.quote_main .inner h2:after{
+    right: 0;
+    bottom: 0;
+}
+.quote_main .inner h2:before {
+    left: 0;
+    top: 0;
+}
+.quote_main ul li p {
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.quote_main ul li:not(.quote_main ul li:last-child) {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .bg_quote .inner h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .bg_quote img {
+        max-width: 45px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .bg_quote {
+        padding: 40px;
+    }
+    .bg_quote .inner h2 {
+        padding: 20px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .quote_main ul li h4 {
+        font-size: 20px;
+    }
+    .quote_main ul li p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 767px) {
+.prof {
+    padding-left: 0px;
+}
+}
+@media only screen and (max-width: 390px) {
+    .bg_quote .inner h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}

@@ -1,0 +1,137 @@
+.popuph2 {
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.ReactModal__Overlay .ReactModal__Overlay--after-open{
+    z-index: 99;
+}
+/*modal*/
+.modal_design .modal-dialog {
+    max-width: 800px;
+}
+.modal_design .modal-header svg {
+    width: 250px;
+    height: 63px;
+}
+
+.modal_design:focus-visible{
+    outline: none;
+}
+
+.modal_design .modal-header button, .modal_design .modal-header button span {
+    margin: 0 0;
+    letter-spacing: 0px;
+    font-size: 14px;
+    color: #000;
+    opacity: 1;
+    font-weight: 500;
+}
+.modal_design .modal-body h2 {
+    font-weight: 600;
+    width: 90%;
+}
+.modal_design .modal-body form {
+    background: #E1E0E0;
+    padding: 15px;
+}
+.modal_design .modal-body form input::placeholder {
+    color: #C6C5C5;
+    font-size: 14px;
+    font-weight: 200;
+}
+.modal_design .modal-body form .btn_theme {
+    box-shadow: unset;
+}
+.modal_design .modal-body {
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.modal_design .modal-dialog .send_icon {
+    max-width: 200px;
+    margin: 20px 0 30px 0;
+}
+.modal_design .modal-dialog .modal-body h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.modal_design .modal-body h3, .modal_design .modal-body h4{
+    color: #000;
+}
+.courses span:not(.courses span:nth-child(2)) {
+    background: #000;
+    margin-right: 6px;
+}
+.courses span {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    border-radius: 100%;
+    border: 1px solid #000;
+}
+.courses {
+    font-weight: 600;
+}
+.modal_design .row.border.border-dark {
+    border-width: 3px !important;
+    border-color: #000 !important;
+}
+@media only screen and (min-width: 768px) {
+.w-md-70{
+    width: 70%;
+}
+}
+@media only screen and (max-width: 767px) {
+    .modal_design .modal-dialog {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .modal_design .modal-body h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .modal_design .modal-dialog .modal-body h4 {
+        font-size: 15px;
+    }
+    .modal_design .modal-body .col-md-8 h3 {
+        font-size: 18px;
+    }
+    .modal_design .modal-body .col-md-4 img {
+        width: 50%;
+    }
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 500ms ease-in-out;
+  }
+  
+  .ReactModal__Overlay--after-open {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  
+  .ReactModal__Overlay--before-close {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+/*modal*/
+
+
+
+/*media query*/
+@media only screen and (min-width: 768px) {
+    .w-md-75 {
+        width: 75%;
+    }
+    .w-md-85 {
+        width: 85%;
+    }
+}
+
+/*media query*/
+/*Quote Section*/
+
+.thankscourse {
+    cursor: pointer;
+}
